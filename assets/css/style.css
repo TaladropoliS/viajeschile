@@ -1,8 +1,25 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted red;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent;
+}
+
+#slide {
+    margin-top: -45px;
 }
 
 #logo-nav {
-    max-height: 40px;
+    max-height: 30px;
 }
+
