@@ -1,25 +1,44 @@
-* {
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    margin: 0;
-    padding: 0;
-    border: 1px dotted red;
+    color: white;
+    background-color: black;
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-}
-
-header {
+header .navbar {
     background-color: transparent;
-}
-
-#slide {
-    margin-top: -45px;
 }
 
 #logo-nav {
     max-height: 30px;
 }
 
+/* hamburger menu background-color */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-left: 15px;
+        border-radius: 15px;
+    }
+}
+
+/* carousel del header */
+.carousel-item {
+    max-height: 100vh;
+}
+
+hr {
+    color: #0DCAF0;
+    border: 1px solid #0DCAF0;
+}
+
+/* footer */
+footer a {
+    text-decoration: none !important;
+    color: white !important;
+}
