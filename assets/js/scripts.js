@@ -12,11 +12,11 @@ $(document).ready(function () {
     $('#quienesSomosUno, #quienesSomosDos, #quienesSomosTres')
         //cambia el fondo y color svg al pasar con el mouse en QUIENESSOMOS
         .mouseenter(function () {
-            $(this).addClass('bg-light text-dark border border-info rounded-3');
+            $(this).addClass('bg-light text-dark border-info rounded-3');
             $(this).find('.quienesFas').addClass('text-dark')
         })
         .mouseleave(function () {
-            $(this).removeClass('bg-light text-dark border border-info rounded-3');
+            $(this).removeClass('bg-light text-dark border-info rounded-3');
             $(this).find('.quienesFas').removeClass('text-dark')
         });
 
