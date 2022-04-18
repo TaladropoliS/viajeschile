@@ -32,6 +32,12 @@ header .navbar {
     max-height: 100vh;
 }
 
+/* quienes somos */
+
+#quienesSomosUno, #quienesSomosDos, #quienesSomosTres {
+    border: 1px solid black !important;
+}
+
 hr {
     color: #0DCAF0;
     border: 1px solid #0DCAF0;
